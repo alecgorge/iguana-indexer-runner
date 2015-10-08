@@ -1,0 +1,22 @@
+{
+  "name": "iguana-indexer-runner",
+  "version": "1.0.0",
+  "description": "Connects to kue to run indexing jobs for languages/platforms that don't have kue clients",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alecgorge/iguana-indexer-runner.git"
+  },
+  "author": "Alec Gorge <alecgorge@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alecgorge/iguana-indexer-runner/issues"
+  },
+  "homepage": "https://github.com/alecgorge/iguana-indexer-runner#readme",
+  "dependencies": {
+    "kue": "^0.9.6"
+  }
+}
