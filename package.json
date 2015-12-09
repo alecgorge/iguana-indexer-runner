@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/alecgorge/iguana-indexer-runner#readme",
   "dependencies": {
-    "kue": "^0.9.6"
+    "express": "^4.13.3",
+    "kue": "^0.9.6",
+    "kue-ui": "^0.1.0"
   }
 }
